@@ -1,5 +1,7 @@
+from src.api.abstract_transition_listener import AbstractTransitionListener
 
-class MockListener:
+
+class MockListener(AbstractTransitionListener):
 
     request_list = []
 

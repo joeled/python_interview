@@ -1,4 +1,4 @@
-from state_machine.state_machine import StateMachineBuilder
+from src.impl.state_machine_builder import StateMachineBuilder
 
 BUILDER = StateMachineBuilder.create_factory()
 

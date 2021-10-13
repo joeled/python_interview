@@ -1,5 +1,5 @@
-from state_machine.state_machine import StateMachineBuilder
-from state_machine.test.mock_transition_listener import MockListener
+from src.impl.state_machine_builder import StateMachineBuilder
+from test.mock_transition_listener import MockListener
 
 BUILDER = StateMachineBuilder.create_factory()
 
