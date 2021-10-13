@@ -10,13 +10,13 @@ class StateMachineBuilder:
         return StateMachineBuilder()
 
     def create_state(self, name: str) -> AbstractState:
-        pass
+        raise Exception("you need to implement")
 
     def create_transition(self, start_state: AbstractState, end_state: AbstractState, event: str) -> AbstractTransition:
-        pass
+        raise Exception("you need to implement")
 
     def set_initial_state(self, initial_state: AbstractState) -> None:
-        pass
+        raise Exception("you need to implement")
 
     def build(self) -> AbstractStateMachine:
-        pass
+        raise Exception("you need to implement")
